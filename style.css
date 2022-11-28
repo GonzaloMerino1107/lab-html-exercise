@@ -2,14 +2,86 @@
 
 body {
   font-family: 'Poppins';
+}
+
+header{
   padding: 0px 25px;
 }
 
 #nav_bar{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
 }
 
-.black_heart{
+#nav_bar .black_heart{
     width: 20px;
+}
+
+#nav_bar .main_menu{
+  width: 600px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#search_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  margin: 10px 0px;
+}
+
+#search_bar img{
+  width: 60px;
+}
+
+#search_bar .search_form{
+  background-color: rgba(0,0,0,.05);
+  display: flex;
+  align-content: center;
+  width: auto;
+  flex: 1;
+  margin: 0px 10px;
+}
+#search_bar .search_input{
+  padding: 10px;
+  font-size: 1em;
+}
+
+#search_bar .search_form_icon{
+  width: 20px;
+  padding: 10px;
+}
+
+#search{
+  border: none;
+  background-color: rgba(0,0,0, 0);
+}
+
+.search_button{
+  margin-left: auto;
+  background-color: #fb3e44 !important;
+  color: white;
+}
+
+#user_register{
+  margin: 0 5px
+}
+
+#user_register .join_btn{
+  margin: 10px;
+  padding: 5px 15px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#user_register .login_btn{
+  padding: 5px 15px;
+  text-decoration:none;
 }
