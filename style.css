@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins';
+  margin:50px;
 }
 
 header{
@@ -131,18 +132,22 @@ h3{
    background-color: #fb3e44;
    color: #F8F4F4;
    font-weight: bolder;
-   padding: 10px 60px;
+   padding: 10px;
    box-shadow: 6px 6px #FAD0D2;
    margin-right: 25px;
+   width: 30%;
+   text-align: center;
 }
 
 .join{
   text-decoration: none;
+  text-align: center;
   background-color: white;
   color: black;
   font-weight: bolder;
-  padding: 10px 60px;
+  padding: 10px;
   margin-left: 25px;
+  width: 30%;
 }
 
 #description{
@@ -161,6 +166,7 @@ h3{
   transform: skew(10deg);
   padding:0 35px;
   height: 40px;
+  width: fit-content;
 }
 
 #description h2{
@@ -186,7 +192,7 @@ h3{
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 100px;
+  margin: 50px;
 }
 
 .feature_card{
