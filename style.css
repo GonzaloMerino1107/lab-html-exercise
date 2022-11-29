@@ -8,6 +8,21 @@ header{
   padding: 0px 25px;
 }
 
+h1{
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+h2{
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+h3{
+  color:#fb3e44;
+  font-weight: bolder;
+}
+
 #nav_bar{
     display: flex;
     flex-direction: row;
@@ -84,4 +99,113 @@ header{
 #user_register .login_btn{
   padding: 5px 15px;
   text-decoration:none;
+}
+
+#join_npm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F8F4F4;
+  padding-bottom: 125px;
+}
+
+#join_npm p{
+  font-size: 1.1em;
+  width: 27%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+#join_npm h1{
+  margin-bottom: 45px;
+}
+#join_npm .join_options{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 35%;
+}
+
+.pricing{
+   text-decoration: none;
+   background-color: #fb3e44;
+   color: #F8F4F4;
+   font-weight: bolder;
+   padding: 10px 60px;
+   box-shadow: 6px 6px #FAD0D2;
+   margin-right: 25px;
+}
+
+.join{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  padding: 10px 60px;
+  margin-left: 25px;
+}
+
+#description{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#description .hexagon_icon{
+  width: 200px;
+  margin: 90px;
+}
+
+#description .highlight{
+  background-color: #FFEBB5;
+  transform: skew(10deg);
+  padding:0 35px;
+  height: 40px;
+}
+
+#description h2{
+  margin: 0;
+  transform: skew(-10deg);
+}
+
+#description p{
+  width: 43%;
+  text-align: center;
+  margin: 50px 0;
+}
+
+#main_features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#main_features .features_carousel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+
+.feature_card{
+  align-items: flex-start;
+  width: 20%
+}
+
+.feature_card img{
+  width: 50px;
+}
+
+.create_org_btn{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 25%;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bolder;
+  box-shadow: 7px 7px rgba(0,0,0, 0.1);
+  padding: 20px;
 }
